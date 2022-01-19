@@ -8,7 +8,6 @@
 void float_to_int(float a)
 {
 	int b;
-
         memcpy(&b, &a, sizeof(a));
 
         int i;
@@ -28,6 +27,8 @@ void float_to_int(float a)
                         fprintf(stdout," ");
         }
         fprintf(stdout, "\n");
+
+	fprintf(stdout, "%f\n",a);
 
 }
 

@@ -34,13 +34,13 @@ fixed32 fxAdd2(fixed32 a, fixed32 b)
 
 int main()
 {
-	long long ia;
+	int ia;
 	int ib;
 	int ic, ic2;
 	float fa;
 	
 //	fscanf(stdin,"%d %d",&ia,&ib);
-	for(int i = 0; i < (long long) 256*256*256*256 ; i+=(256*256))
+	for(long long i = 0; i < (long long) 256*256*256*256 ; i+=(256*256))
 	{
 		ic = fxAdd(i,i);
 		ic2 = fxAdd2(i,i);
