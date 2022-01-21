@@ -18,9 +18,9 @@ typedef short fixed;
 #endif
 
 #ifndef circulate_c
-extern int int_sum_using_S10_5(int a,int b);
-extern int int_sub_using_S10_5(int a,int b);
-extern float float_sum_using_S10_5(float a, float b);
-extern float float_sub_using_S10_5(float a, float b);
+extern fixed int_sum_s10_5(fixed a,fixed b);
+extern fixed int_sub_s10_5(fixed a,fixed b);
+extern fixed float_sum_s10_5(fixed a, fixed b);
+extern fixed float_sub_s10_5(fixed a, fixed b);
 #endif
 

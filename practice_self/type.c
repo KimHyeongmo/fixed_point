@@ -3,19 +3,19 @@
 
 void sumi(int ia)
 {
-	ia = 1 * 1;
+	ia = ia + ia;
 }
 	
 void sumf(float fa)
 {
-	fa = 1.0 * 1.0;
+	fa = fa * fa;
 }
 
 int main()
 {
-	int ia = 0;
-	float fa = 0.0;
-	for(int i = 0;i<1000000000;i++)
+	int ia = 1;
+	float fa = 1.0;
+	for(int i = 0; i<1000000000; i++)
 	{
 		sumi(ia);
 		sumf(fa);
