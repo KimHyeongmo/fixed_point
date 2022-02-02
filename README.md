@@ -1,6 +1,9 @@
-# pcc010_final
+# pcc010-fixedpoint
 
-실전코딩2 - 기말과제
+실전코딩2 - 고정 소수점
+
+## 목차
+
 
 
 |        | S10_5체계 | real number | short체계 |
