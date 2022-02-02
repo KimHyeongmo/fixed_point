@@ -1,3 +1,5 @@
+# modifying.... PLEASE WAIT! ~2022/2/3 23:59
+
 # pcc010-fixedpoint
 
 실전코딩2 - 고정 소수점
@@ -58,8 +60,6 @@
 
 ## Runtime
 
-## Accuracy
-
 * 32bit_compile
 
 ![32bit_compile](/uploads/aa682fd6bdf3183444fa146e271d566d/32bit_compile.jpg)
@@ -67,3 +67,49 @@
 * 64bit_compile
 
 ![62bit_compile](/uploads/9a831b81422494dda3efbe897f521fde/62bit_compile.jpg)
+
+| sum | time:64 | time:32 |
+| ------ | ------ | ------ |
+| int | 0.15 | 0.22 |
+| longlong | 0.3 | 0.2 |
+| float | 0.61 | 5.41 |
+| double | 0.65 | 5.33 |
+
+| sub | time:64 | time:32 |
+| ------ | ------ | ------ |
+| int | 0.11 | 0.2 |
+| longlong | 0.18 | 0.23 |
+| float | 0.66 | 5.1 |
+| double | 0.68 | 5.21 |
+
+| mul | time:64 | time:32 |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+| div | time:64 | time:32 |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+
+## Accuracy
