@@ -3,7 +3,7 @@
 실전코딩2 - 고정 소수점
 
 ## 목차
-1. [Function](##Function)
+1. [Function](##-Function)
 2. Runtime
 3. Accuracy
 
