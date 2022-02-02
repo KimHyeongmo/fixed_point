@@ -3,7 +3,7 @@
 실전코딩2 - 고정 소수점
 
 ## 목차
-1. [Function](##-Function)
+1. [Function](#function)
 2. Runtime
 3. Accuracy
 
@@ -14,6 +14,7 @@
 | 최소값 | -1024 | -1024 | -32768 |
 | 최소차이 | 0.03125 | 0.03125 |  |
 
+#function
 ## Function
 
 * 32bit_compile
