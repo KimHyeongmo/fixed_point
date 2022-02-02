@@ -4,8 +4,8 @@
 
 ## 목차
 1. [Function](#function)
-2. Runtime
-3. Accuracy
+2. [Runtime](#runtime)
+3. [Accuracy](#accuracy)
 
 
 |        | S10_5체계 | real number | short체계 |
@@ -15,6 +15,50 @@
 | 최소차이 | 0.03125 | 0.03125 |  |
 
 ## Function
+
+* S10_5 체계
+
+| 함수 | 기능 |
+| ------ | ------ |
+| fixed_to_double(a) | fixed표현 숫자를 double로 형변환 |
+| fixed_to_int(a) | fixed표현 숫자를 int로 형변환 |
+| fixed_to_float(a) | fixed표현 숫자를 float로 형변환 |
+| fixed_to_longlong(a) | fixed표현 숫자를 longlong로 형변환 |
+| double_to_fixed(a) | double표현 숫자를 fixed로 형변환 |
+| int_to_fixed(a) | int표현 숫자를 fixed로 형변환 |
+| float_to_fixed(a) | float표현 숫자를 fixed로 형변환 |
+| double_to_fixed(a) | double표현 숫자를 fixed로 형변환 |
+| int_sum_s10_5 | fixed의 int합 |
+| float_sum_s10_5 | fixed의 float합 |
+| longlong_sum_s10_5 | fixed의 longlong합 |
+| double_sum_s10_5 | fixed의 double합 |
+| int_sub_s10_5 | fixed의 int차 |
+| float_sub_s10_5 | fixed의 float차 |
+| longlong_sub_s10_5 | fixed의 longlong차 |
+| int_mul1_s10_5 | fixed의 int곱1 |
+| float_mul1_s10_5 | fixed의 float곱1 |
+| longlong_mul1_s10_5 | fixed의 longlong곱1 |
+| double_mul1_s10_5 | fixed의 double곱1 |
+| int_div1_s10_5 | fixed의 int나누기1 |
+| float_div1_s10_5 | fixed의 float나누기1 |
+| longlong_div1_s10_5 | fixed의 longlong나누기1 |
+| double_div1_s10_5 | fixed의 double나누기1 |
+| int_mul2_s10_5 | fixed의 int곱2 |
+| longlong_mul2_s10_5 | fixed의 longlong곱2 |
+| int_mul3_s10_5 | fixed의 int곱3 |
+| longlong_mul3_s10_5 | fixed의 longlong곱3 |
+| int_mul4_s10_5 | fixed의 int곱4 |
+| longlong_mul4_s10_5 | fixed의 longlong곱4 |
+| int_div2_s10_5 | fixed의 int나누기2 |
+| longlong_div2_s10_5 | fixed의 longlong나누기2 |
+| int_div3_s10_5 | fixed의 int나누기3 |
+| longlong_div3_s10_5 | fixed의 longlong나누기3 |
+
+
+
+## Runtime
+
+## Accuracy
 
 * 32bit_compile
 
