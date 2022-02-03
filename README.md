@@ -88,8 +88,11 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
 | double | 4 | 3 |
 
 - 분석
+
     64bit 컴파일의 경우 int, long long 합이 float와 double에 비해 2~4배 빠른 시간을 보였다.
+
     32bit 컴파일의 경우 float, double이 int, long long에 비해 27배 가량 늦은 것으로 확인되었다.
+    
     int와 long long 간의 연산 속도도 2배가량의 차이가 났다.
 
 
@@ -101,7 +104,9 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
 | double | 4 | 4 |
 
 - 분석
+
     64bit 컴파일의 경우 int, long long 차가 float와 double에 비해 3~6배 빠른 시간을 보였다.
+    
     32bit 컴파일의 경우 float, double이 int, long long에 비해 26배 가량 늦은 것으로 확인되었다.
 
 
@@ -113,8 +118,11 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
 | float | 4 | 4 |
 
 - 분석
+
     64bit 컴파일의 경우 int, long long 곱1이 float와 double에 비해 3~10배 빠른 시간을 보였다.
+
     32bit 컴파일의 경우 float, double이 int, long long에 비해 13~26배 가량 늦은 것으로 확인되었다.
+
     64bit 컴파일의 경우 long long이 int에 비해 4배가량 빨랐으며, 32bit 컴파일의 경우 int가 long long에 비해 2배가량 빨랐다.
 
 
@@ -124,7 +132,9 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
 | int | 2 | 1 |
 
 - 분석
+
     64bit 컴파일의 경우 long long이 int에 비해 약간 빠른 시간을 보였으며
+    
     32bit 컴파일의 경우 int가 long long에 비해 비교적 빠른 시간을 보였다.
     
 
@@ -134,7 +144,9 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
 | int | 2 | 1 |
 
 - 분석
+
     64bit 컴파일의 경우 long long이 int에 비해 비교적 빠른 시간을 보였으며
+    
     32bit 컴파일의 경우 int가 long long에 비해 약간 빠른 시간을 보였다.
     
 
@@ -144,7 +156,9 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
 | int | 1 | 1 |
 
 - 분석
+
     64bit 컴파일의 경우 int가 long long에 비해 약간 빠른 시간을 보였으며
+    
     32bit 컴파일의 경우 int가 long long에 비해 비교적 빠른 시간을 보였다.
     
 
@@ -156,7 +170,9 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
 | long long | 4 | 1 |
 
 - 분석
+
     64bit 컴파일의 경우 int가 다른 타입에 비해 3배 가량 빠른 속도를 보였다. 가장 느린 것이 long long이었다는 것에 주목해야한다.
+    
     32bit 컴파일의 경우 long long과 int가 double과 float에 비해 17배 정도 빠른 속도를 보였다.
     
 
@@ -166,7 +182,9 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
 | long long | 2 | 2 |
 
 - 분석
+
     64bit 컴파일의 경우 int가 long long에 비해 2배가량 빠른 시간을 보였으며
+    
     32bit 컴파일의 경우 int가 long long에 비해 비교적 빠른 시간을 보였다.
     
 
@@ -176,7 +194,9 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
 | long long | 2 | 2 |
 
 - 분석
+
     64bit 컴파일의 경우 int가 long long에 비해 약 3.4배 빠른 시간을 보였으며
+    
     32bit 컴파일의 경우 int가 long long에 비해 약간 빠른 시간을 보였다.
     
 
