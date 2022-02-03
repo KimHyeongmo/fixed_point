@@ -13,6 +13,8 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
 1. [Function](#function)
 2. [Runtime](#runtime)
 3. [Accuracy](#accuracy)
+4. [Runtime Test Method](#runtime-test-method)
+5. [Execution Method](#execution-method)
 
 
 |        | S10_5체계 | real number | short체계 |
@@ -231,3 +233,7 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
 ### flaot / double
 
 ![float_double_정확도](/uploads/9ec10a23d676005613e1f7a04608b597/float_double_정확도.jpg)
+
+## Runtime Test Method
+
+## Execution Method
