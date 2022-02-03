@@ -3,9 +3,11 @@
 실전코딩2 - 고정 소수점
 
 
+
 ### 업데이트 예정 사항
 ```
-double, float typecasting의 시간이 예상보다 길게나와 함수 호출을 줄이기 위해 매크로로 전환하는 업데이트가 있을 예정입니다.
+1. double, float typecasting의 시간이 예상보다 길게나와 함수 호출을 줄이기 위해 매크로로 전환하는 업데이트가 있을 예정입니다.
+2. gcc 컴파일러 사용을 기준으로 archive파일을 불러오기만 하면 되도록 Makefile을 수정하여 archive파일을 생성하도록 할 예정입니다.
 
 ```
 
@@ -236,4 +238,10 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
 
 ## Runtime Test Method
 
+* Result 폴더의 파일을 다운받아 make 실행
+    1. Makefile내의 -m32, -m64를 조정하여 컴파일 방식 선택
+    2. test 실행 후 gprof을 활용하여 프로파일링
+
 ## Execution Method
+
+* Makefile 내부의 test.c 및 test.o의 부분을 사용하고자 하는 파일 명으로 수정
