@@ -1,8 +1,11 @@
-# modifying.... PLEASE WAIT! ~2022/2/3 23:59
-
 # pcc010-fixedpoint
 
 실전코딩2 - 고정 소수점
+
+* 업데이트 예정 사항
+```
+double, float typecasting의 시간이 예상보다 길게나와 함수 호출을 줄이기 위해 매크로로 전환하는 업데이트가 있을 예정입니다.
+```
 
 ## 목차
 1. [Function](#function)
