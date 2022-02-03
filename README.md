@@ -96,6 +96,8 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
     int와 long long 간의 연산 속도도 2배가량의 차이가 났다.
 
 
+
+
 | sub | time:64 | time:32 |
 | ------ | ------ | ------ |
 | int | 1 | 1 |
@@ -108,6 +110,8 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
     64bit 컴파일의 경우 int, long long 차가 float와 double에 비해 3~6배 빠른 시간을 보였다.
     
     32bit 컴파일의 경우 float, double이 int, long long에 비해 26배 가량 늦은 것으로 확인되었다.
+
+
 
 
 | mul1 | time:64 | time:32 |
@@ -126,6 +130,8 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
     64bit 컴파일의 경우 long long이 int에 비해 4배가량 빨랐으며, 32bit 컴파일의 경우 int가 long long에 비해 2배가량 빨랐다.
 
 
+
+
 | mul2 | time:64 | time:32 |
 | ------ | ------ | ------ |
 | long long | 1 | 2 |
@@ -137,6 +143,8 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
     
     32bit 컴파일의 경우 int가 long long에 비해 비교적 빠른 시간을 보였다.
     
+
+
 
 | mul3 | time:64 | time:32 |
 | ------ | ------ | ------ |
@@ -150,6 +158,8 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
     32bit 컴파일의 경우 int가 long long에 비해 약간 빠른 시간을 보였다.
     
 
+
+
 | mul4 | time:64 | time:32 |
 | ------ | ------ | ------ |
 | long long | 2 | 2 |
@@ -161,6 +171,8 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
     
     32bit 컴파일의 경우 int가 long long에 비해 비교적 빠른 시간을 보였다.
     
+
+
 
 | div1 | time:64 | time:32 |
 | ------ | ------ | ------ |
@@ -176,6 +188,8 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
     32bit 컴파일의 경우 long long과 int가 double과 float에 비해 17배 정도 빠른 속도를 보였다.
     
 
+
+
 | div2 | time:64 | time:32 |
 | ------ | ------ | ------ |
 | int | 1 | 1 |
@@ -187,6 +201,8 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
     
     32bit 컴파일의 경우 int가 long long에 비해 비교적 빠른 시간을 보였다.
     
+
+
 
 | div3 | time:64 | time:32 |
 | ------ | ------ | ------ |
@@ -200,4 +216,18 @@ double, float typecasting의 시간이 예상보다 길게나와 함수 호출�
     32bit 컴파일의 경우 int가 long long에 비해 약간 빠른 시간을 보였다.
     
 
+
+
 ## Accuracy
+
+### int
+
+![int_정확도](/uploads/71e445d82fc5dd29bc1796443c2a00c3/int_정확도.jpg)
+
+### long long
+
+![long_long_정확도](/uploads/534699f68898dba25bea78f46b360ed2/long_long_정확도.jpg)
+
+### flaot / double
+
+![float_double_정확도](/uploads/9ec10a23d676005613e1f7a04608b597/float_double_정확도.jpg)
