@@ -227,15 +227,15 @@
 
 ### int
 
-![int_정확도](/uploads/71e445d82fc5dd29bc1796443c2a00c3/int_정확도.jpg)
+![image](https://user-images.githubusercontent.com/93339488/232311152-2c1bef86-9f7a-4d2d-9bd9-d2befffa549a.png)
 
 ### long long
 
-![long_long_정확도](/uploads/534699f68898dba25bea78f46b360ed2/long_long_정확도.jpg)
+![image](https://user-images.githubusercontent.com/93339488/232311179-2d79dacd-452d-4f1a-a391-367e16769980.png)
 
 ### flaot / double
 
-![float_double_정확도](/uploads/9ec10a23d676005613e1f7a04608b597/float_double_정확도.jpg)
+![image](https://user-images.githubusercontent.com/93339488/232311216-8fe09ed3-a83d-4d07-bd4f-fc9d4b27f0fb.png)
 
 ## Runtime Test Method
 
