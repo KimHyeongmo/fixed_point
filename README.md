@@ -74,11 +74,11 @@
 
 * 32bit_compile
 
-![32bit_compile](/uploads/aa682fd6bdf3183444fa146e271d566d/32bit_compile.jpg)
+![image](https://user-images.githubusercontent.com/93339488/232310895-4ca25f77-688b-494e-b1b6-a63e119aa0e9.png)
 
 * 64bit_compile
 
-![62bit_compile](/uploads/9a831b81422494dda3efbe897f521fde/62bit_compile.jpg)
+![image](https://user-images.githubusercontent.com/93339488/232310976-b3abc3a3-9376-45e1-8f19-c35b095462af.png)
 
 ### Ranking
 
